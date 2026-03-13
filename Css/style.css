@@ -1,0 +1,31 @@
+body {
+  background-color: rgb(255, 243, 228);
+  font-family: serif;
+}
+p {
+  color: rgb(0, 0, 0);
+}
+.cor-texto {
+  color: rgb(0, 0, 0);
+}
+
+#cor-frase {
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+}
+a {
+  font-weight: bold;
+  color: firebrick;
+}
+a:visited {
+  color: rgb(172, 45, 172);
+}
+
+a:hover {
+  color: rgb(212, 17, 17);
+}
+.div listas {
+  display: flex;
+  align-items: end;
+  max-width: 700px;
+}
