@@ -18,14 +18,53 @@ a {
   color: firebrick;
 }
 a:visited {
-  color: rgb(172, 45, 172);
+  color: rgb(0, 0, 0);
 }
 
 a:hover {
-  color: rgb(212, 17, 17);
+  color: rgb(255, 0, 0);
 }
 .listas {
   display: flex;
   align-items: end;
   max-width: 700px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(255, 0, 0);
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  background-color: rgb(255, 251, 0);
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: rgb(251, 255, 0);
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 30px;
+  padding: 15px;
+  border: 1px solid rgb(0, 0, 0);
+}
+
+footer {
+  background-color: rgb(0, 136, 255);
+  color: rgb(0, 136, 255);
+  text-align: center;
+  padding: 15px;
 }
