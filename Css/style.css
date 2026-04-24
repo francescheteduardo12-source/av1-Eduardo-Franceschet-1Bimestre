@@ -60,6 +60,53 @@ section {
   margin-bottom: 30px;
   padding: 15px;
   border: 1px solid rgb(0, 0, 0);
+  border-radius: 20px;
+}
+
+.bg-color {
+  background-color: burlywood;
+}
+#habilidades {
+  text-shadow:
+    1px 0 #fff,
+    -1px 0 #fff,
+    0 1px #fff,
+    0 -1px #fff,
+    1px 1px #fff,
+    -1px -1px #fff,
+    1px -1px #fff,
+    -1px 1px #fff;
+
+  background-color: brown;
+}
+#sobre {
+  text-shadow:
+    1px 0 #fff,
+    -1px 0 #fff,
+    0 1px #fff,
+    0 -1px #fff,
+    1px 1px #fff,
+    -1px -1px #fff,
+    1px -1px #fff,
+    -1px 1px #fff;
+  background-color: chocolate;
+}
+#Contato {
+  text-shadow:
+    1px 0 #fff,
+    -1px 0 #fff,
+    0 1px #fff,
+    0 -1px #fff,
+    1px 1px #fff,
+    -1px -1px #fff,
+    1px -1px #fff,
+    -1px 1px #fff;
+  height: 70px;
+  border: 6px;
+
+  border-style: outset;
+
+  color: black;
 }
 
 footer {
